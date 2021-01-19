@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+<meta charset="ISO-8859-1">
+<title>	Artitech</title>
+<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+
+<div class="container text-center"> 
+  
+ <div class="p-2">
+  <H1>Welcome To Admin</H1>  
+</div> 
+   
+   
+<div class="p-2">
+<a class="h2" th:href="@{/categories}">List Categories</a>
+</div>
+ 
+<div class="p-2">
+<a class="h2" th:href="@{/categories/new}">Create New Category</a>
+</div>
+ 
+ <div class="p-2">
+<a class="h2" th:href="@{/products}">List Products</a>
+</div>
+ 
+<div class="p-2">
+<a class="h2" th:href="@{/products/new}">Create New Product</a>
+</div>
+ 
+ 
+ 
+ </div>
+
+</body>
+</html>
